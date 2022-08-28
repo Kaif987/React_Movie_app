@@ -1,0 +1,48 @@
+* {
+  margin: none;
+  padding: 0;
+  box-sizing: border-box  
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.searchMovie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.searchMovie h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.movie-search-form button{
+    background: #2C2C2C;
+    color: white;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+}
+
+.search-div{
+    display: flex;
+    column-gap: 1em;
+    margin-bottom: 1em;
+}
+
+.movie-item{
+    background:#dddddd;
+    margin: 1em 0em;
+    border-radius: 10px;
+    padding: 1em;
+}
